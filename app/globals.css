@@ -28,7 +28,13 @@ body {
 .btn-hover-light {
   background-color: var(--color-light-hover);
 }
+.btn-hover-light:hover {
+  box-shadow: var(--shadow-black);
+}
 
+.hover-light:hover{
+  background-color: var(--color-light-hover);
+}
 .btn-hover-dark {
   background-color: var(--color-dark-hover);
 }
@@ -43,4 +49,9 @@ body {
 
 .shadow-white {
   box-shadow: var(--shadow-white);
+}
+
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
