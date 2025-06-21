@@ -5,12 +5,12 @@ import React from 'react'
 const Experience = () => {
   return (
     <div id='experience' className='w-full px-[12%] py-10 scroll-mt-20'>
-      <h4 className='text-center mb-2 text-lg font-Ovo'>What I offer</h4>
-      <h2 className='text-center text-5xl font-Ovo'>My Experience</h2>
+      <h4 className='text-center mb-2 text-lg ovo-font'>What I offer</h4>
+      <h2 className='text-center text-5xl ovo-font'>My Experience</h2>
 
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 ovo-font'>
         I am a data scientist from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
-        <div className='grid-cols-auto my-10'>
+        <div className='grid-cols-auto my-10 gap-6'>
             {serviceData.map(({icon, title, description, link}, index)=>(
               <div key={index} 
               className='border border-gray-400 rounded-lg px-8 py-12 cursor-pointer btn-hover-light hover:-translate-y-1 duration-500'>

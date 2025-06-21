@@ -8,12 +8,12 @@ const Header = () => {
       <div>
         <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
       </div>
-      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
+      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 ovo-font'>
             Hi! I'm Mohammad Bayu Rizki <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
-    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
+    <h1 className='text-3xl sm:text-6xl lg:text-[66px] ovo-font'>
         Data Science & Machine Learning Enthusiast.
     </h1>
-        <p className='max-w-2xl mx-auto font-Ovo'>
+        <p className='max-w-2xl mx-auto ovo-font'>
             I am a data scientist based in California, USA, with over 10 years of experience working at leading tech companies such as Google, Meta, and Amazon.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

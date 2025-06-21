@@ -15,15 +15,20 @@
   --font-ovo: 'Ovo', serif;
 }
 
-body {
-  font-family: var(--font-outfit);
-}
-
 /* Jika ingin menggunakan Ovo di elemen tertentu */
 .ovo-font {
   font-family: var(--font-ovo);
 }
-
+*{
+  font-family: var(--font-outfit);
+}
+/* Jika ingin menggunakan Outfit di elemen tertentu */
+.outfit-font {
+  font-family: var(--font-outfit);
+}
+.dark {
+  background-color: var(--color-dark-theme);
+}
 /* Contoh penggunaan warna dan box shadow */
 .btn-hover-light {
   background-color: var(--color-light-hover);
@@ -55,3 +60,4 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
