@@ -26,8 +26,9 @@
 .outfit-font {
   font-family: var(--font-outfit);
 }
-.dark {
+.dark-theme {
   background-color: var(--color-dark-theme);
+  color: white;
 }
 /* Contoh penggunaan warna dan box shadow */
 .btn-hover-light {

@@ -9,17 +9,6 @@ import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  useEffect(()=>{
-      if(isDarkMode){
-        document.documentElement.classList.add('dark');
-        localStorage.theme = 'dark';
-      }else{
-        document.documentElement.classList.remove('dark');
-        localStorage.theme = '';
-      }
-  },[isDarkMode])
   
   return (
     <>
