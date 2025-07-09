@@ -10,6 +10,9 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import react_icon from './React.png';
+import tailwind_icon from './Tailwind.png';
+import nextjs_logo from './Nextjs-logo.png';
 import python from './python.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
@@ -38,6 +41,9 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
+    nextjs_logo,
+    tailwind_icon,
+    react_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -80,23 +86,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'E-commerce',
+        description: 'Web Development',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
+        title: 'Harvestfarm Mobile',
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'SIC Batch 6',
+        description: 'IoT & AI',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Safetion UI',
+        description: 'UI/UX Design Mobile',
         bgImage: '/work-4.png',
     },
 ]
@@ -109,11 +115,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, R Project, Pandas, TensorFlow, Kedro' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Html, Tailwind-css, javaScript, Next.js, React' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'System Information in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.python, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.react_icon, assets.nextjs_logo, assets.tailwind_icon, assets.figma, assets.git
 ];

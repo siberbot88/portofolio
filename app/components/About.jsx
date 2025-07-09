@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className='flex-1'>
             <p className='mb-10 max-w-2xl ovo-font'>
-                I am an experienced Data Scientist with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success through data-driven insights and innovative analytical solutions.
+                Hi! I’m Mohammad Bayu Rizki, an Information Systems student who designs, builds, and deploys clean, user-friendly web & mobile apps. I’ve collaborated on 5+ projects that empower users through smart UI and seamless tech. Passionate about front-end development, UI/UX, and exploring how AI & IoT can transform experiences.  
             </p>
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon,iconDark, title, description}, index)=>(

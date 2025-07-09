@@ -34,7 +34,7 @@ const Contact = () => {
       <h2 className='text-center text-5xl ovo-font'>Get in touch</h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 ovo-font'>
-        I'm excited to share my journey in data science! If you're curious about projects, analyses, or just want to connect, feel free to reach out using the form below.</p>
+        I'm excited to share my journey in Front-end Dev! If you're curious about projects, analyses, or just want to connect, feel free to reach out using the form below.</p>
 
         <form onSubmit={onSubmit} action="" className='max-w-2xl mx-auto'>
             <div className='grid-cols-auto gap-6 mt-10 mb-8'>

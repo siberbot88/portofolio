@@ -11,17 +11,17 @@ const Header = () => {
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 ovo-font'>
             Hi! I'm Mohammad Bayu Rizki <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
     <h1 className='text-3xl sm:text-6xl lg:text-[66px] ovo-font'>
-        Data Science & Machine Learning Enthusiast.
+        Front-End Developers & UI/UX Designer
     </h1>
         <p className='max-w-2xl mx-auto ovo-font'>
-            I am a data scientist based in California, USA, with over 10 years of experience working at leading tech companies such as Google, Meta, and Amazon.
+            an Information Systems student who engineers, designs, and deploys smart, user-focused web & mobile applications. I specialize in front-end development and UI/UX design, and have collaborated on projects that empower communities and streamline real-world processes.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a href="#contact"
             className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
             >contact me <Image src={assets.right_arrow_white} alt='' className=' w-4'/></a>
 
-            <a href="/sample-resume.pdf" download 
+            <a href="/CV-MohammadBayuRizki2025.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                 my resume <Image src={assets.download_icon} alt='' className=' w-4'/></a>
         </div>

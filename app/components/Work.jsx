@@ -9,7 +9,7 @@ const Work = () => {
       <h2 className='text-center text-5xl ovo-font'>My Latest Work</h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 ovo-font'>
-        Welcome to my data science portfolio! Explore a collection of projects showcasing my expertise in machine learning, data analysis, and AI-driven solutions.</p>
+        Explore my projects in web development, mobile apps, UI/UX, and IoT, where I’ve designed, built, and refined digital solutions to solve real problems. Each project reflects my passion for clean interfaces, smart systems, and impactful user experiences.</p>
 
         <div className='grid-cols-auto my-10 gap-5'>
             {workData.map((project, index)=>(
