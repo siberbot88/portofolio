@@ -21,7 +21,7 @@ const Header = () => {
             className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
             >contact me <Image src={assets.right_arrow_white} alt='' className=' w-4'/></a>
 
-            <a href="/CV-MohammadBayuRizki2025.pdf" download 
+            <a href="/CV-MohammadBayuRizki.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                 my resume <Image src={assets.download_icon} alt='' className=' w-4'/></a>
         </div>
